@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
+// ✅  合并两个有序数组 (Merge Sorted Array)
+// 题目描述：将两个有序数组合并为一个有序数组。
+
 contract SortedArrayMerger {
     uint256[] private arr1 = [1, 5, 6, 8, 9, 25, 45, 56];
     uint256[] private arr2 = [2, 5, 8, 9, 12, 16, 18, 26, 89];  // 修复：无空槽

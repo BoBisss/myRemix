@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ~0.8.0;
 
+//✅  二分查找 (Binary Search)
+//     在一个有序数组中找目标值
+
 contract binarySearch{
     function search(int256[] memory nums,int256 target)external pure returns(uint256 index) {
         uint256 left = 0;
