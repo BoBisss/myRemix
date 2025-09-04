@@ -1,0 +1,17 @@
+# Remix IDE
+.dependabot
+.cache/
+artifacts/
+node_modules/
+.states/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
